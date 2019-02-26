@@ -1,0 +1,287 @@
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 300;
+  text-align: center;
+  background-color: #eee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  border: 0;
+  height: 1.5px;
+  background-image: linear-gradient(
+    to right,
+    rgba(23, 23, 213, 0),
+    rgba(31, 64, 198, 0.571),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+nav ul {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  background-color: #6f98c9;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.36);
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 55px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 750;
+}
+
+nav ul li a {
+  color: #c2bfa1;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: rgba(21, 77, 137, 0.42);
+}
+
+.intro {
+  top: 0;
+  // background: #9ac1df66;
+  min-height: 55vh;
+  padding-top: 15vh;
+  padding-bottom: 10vh;
+  width: 100%;
+}
+
+.intro img {
+  height: 400px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.intro h1 {
+  padding: 3vh;
+  color: rgba(4, 14, 35, 0.386);
+}
+
+.intro h2 {
+  padding: 1vh;
+  padding-bottom: 3vh;
+  color: rgba(9, 71, 147, 0.407);
+}
+
+.intro p {
+  font-family: sans-serif;
+  font-size: 0.8em;
+  font-style: italic;
+  color: rgba(9, 71, 147, 0.407);
+}
+
+.social-linkedin {
+  display: inline-block;
+  margin: 10px 15px 5px 15px;
+  list-style-type: none;
+  line-height: 100px;
+  color: #00158041;
+  text-decoration: none;
+}
+
+.social-linkedin:hover {
+  color: #007bb5;
+}
+
+.social-github {
+  display: inline-block;
+  margin: 10px 15px 5px 15px;
+  list-style-type: none;
+  line-height: 100px;
+  color: #00158041;
+  text-decoration: none;
+}
+
+.social-github:hover {
+  color: #000;
+}
+
+.social-instagram {
+  display: inline-block;
+  margin: 10px 15px 5px 15px;
+  list-style-type: none;
+  line-height: 100px;
+  color: #00158041;
+  text-decoration: none;
+}
+
+.social-instagram:hover {
+  color: #c32aa3;
+}
+
+.work {
+  padding-top: 60px;
+  margin-top: -60px;
+}
+
+.work .work-header {
+  margin-top: 50px;
+  color: #001580;
+  font-weight: bold;
+  font-family: fantasy;
+  font-size: 2em;
+}
+
+.project {
+  text-decoration: none;
+  background-color: #fff;
+  // color: #008080;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.16);
+  height: 240px;
+  width: 280px;
+  margin: 40px 100px;
+}
+
+.project:hover {
+  opacity: 0.8;
+  box-shadow: 5px 5px 8px 2px rgba(71, 120, 245, 0.31);
+}
+
+.project-pic {
+  width: 100%;
+  height: 180px;
+}
+
+.project-title {
+  padding: 2vh;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+.show-all {
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  height: 30px;
+  margin: 20px auto 90px;
+  background: #d8def0;
+  font-weight: bold;
+  font-size: 1em;
+  font-family: fantasy;
+  border: 2px solid #9390c6;
+  border-radius: 8px;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.show-all:hover {
+  background: #e4f1fe;
+  color: green;
+}
+
+@media only screen and (max-width: 500px) {
+  nav ul {
+    text-align: center;
+  }
+  nav ul li {
+    margin: 20px;
+  }
+  .project {
+    margin: 40px 0;
+  }
+}
+
+.contact {
+  /*   height:800px; */
+  /*   min-height:800px; */
+  // background: #c8f7c5;
+  padding-bottom: 160px;
+  color: rgb(43, 110, 226);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.header {
+  padding: 160px 0 110px;
+}
+
+.header h1 {
+  font-size: 3em;
+  padding-bottom: 2vh;
+}
+
+.header p {
+  font-size: 1.8em;
+  color: rgb(227, 142, 39);
+  padding-top: 3vh;
+}
+
+.contact-twitter {
+  display: inline-block;
+
+  margin: 0 35px 45px 35px;
+  list-style-type: none;
+  line-height: 100px;
+  color: #00158041;
+  text-decoration: none;
+}
+
+.contact-twitter:hover {
+  color: #1da1f2;
+}
+
+.contact-whatsapp {
+  display: inline-block;
+  margin: 0 35px 45px 35px;
+  list-style-type: none;
+  line-height: 100px;
+  color: #00158041;
+  text-decoration: none;
+}
+
+.contact-whatsapp:hover {
+  color: #25d366;
+}
+
+.contact-email {
+  display: inline-block;
+  margin: 0 35px 45px 35px;
+  list-style-type: none;
+  line-height: 100px;
+  color: #00158041;
+  text-decoration: none;
+}
+
+.contact-email:hover {
+  color: #7289da;
+}
+
+footer {
+  padding: 20px;
+  background: #22313f;
+  color: white;
+  line-height: 40px;
+}
+
+footer a {
+  color: white;
+}
+
+@media only screen and (max-width: 367px) {
+  /*    #contact{
+    min-height:1100px;
+  } */
+  .contact-details {
+    border: 2px solid #90c695;
+    border-radius: 0;
+    width: 90px;
+    height: 20px;
+    padding: 10px;
+    line-height: normal;
+  }
+}
